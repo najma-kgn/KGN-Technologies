@@ -17,7 +17,7 @@ module.exports = ({ env }) => ({
   },
   admin: {
     auth: {
-      secret: env('ADMIN_JWT_SECRET', '1138189866'), // Directly set the JWT secret
+      secret: env('ADMIN_JWT_SECRET', '1138189866'), // Make sure this points to the correct secret
     },
   },
   webhooks: {
