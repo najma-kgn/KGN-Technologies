@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_technologyitem_technology_items",
+  "info": {
+    "displayName": "Technology Item"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

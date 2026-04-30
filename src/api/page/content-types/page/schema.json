@@ -33,6 +33,36 @@
     },
     "Description": {
       "type": "richtext"
+    },
+    "hero_section": {
+      "type": "component",
+      "component": "hero-section.hero-section",
+      "repeatable": true
+    },
+    "Technology_section": {
+      "type": "component",
+      "component": "technology.technology-section",
+      "repeatable": true
+    },
+    "Technology_item": {
+      "type": "component",
+      "component": "technologyitem.technology-item",
+      "repeatable": true
+    },
+    "zigzag_section": {
+      "type": "component",
+      "component": "zigzag-section.zigzag-section",
+      "repeatable": true
+    },
+    "services_section": {
+      "type": "component",
+      "component": "shared.services-section",
+      "repeatable": true
+    },
+    "contact_submissions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contact-submission.contact-submission"
     }
   }
 }

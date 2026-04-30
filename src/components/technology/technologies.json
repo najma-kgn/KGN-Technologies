@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_technology_technologies",
+  "info": {
+    "displayName": "technologies"
+  },
+  "options": {},
+  "attributes": {
+    "Technologyitem": {
+      "type": "component",
+      "component": "technologyitem.technology-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_technology_technology_sections",
+  "info": {
+    "displayName": "Technology Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "technologies": {
+      "type": "component",
+      "component": "technology.technologies",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
