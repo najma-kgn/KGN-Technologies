@@ -743,6 +743,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
       'technology.technology-section',
       true
     >;
+    test: Schema.Attribute.RichText;
     Title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
